@@ -1,0 +1,39 @@
+*{
+    background-image:url(./);
+}
+
+.newweb{
+    display: flex;
+    justify-content:left;
+    background-color: rgb(86, 119, 248);
+    border-radius: 12px;
+    padding: 20px;
+    position: sticky;
+
+}
+#right{
+    width: 20%;
+}
+.login{
+    width: 80%;
+    font-size: medium;
+    margin-top: 20px;
+}
+
+#sender{
+    align-content: center;
+    justify-content: center;
+    width: 70%;
+    position: sticky
+    ;
+    
+     
+}
+.messi{
+    margin-left: 1px;
+    margin-top: 10px;
+
+
+
+    
+}   

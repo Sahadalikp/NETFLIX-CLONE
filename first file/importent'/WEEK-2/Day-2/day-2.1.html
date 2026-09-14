@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>calculater</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <h1>hello </h1>
+    <script>
+        const a = Number(prompt("enter a value:"));
+        const operators = prompt("enter a operators:");
+        const b = Number(prompt("enter second value:"));
+     
+        let result;
+        if (operators == "+"){
+            result = a+b ;
+        }else if (operators == "-"){
+            result = a-b ;
+        }else if (operators == "*"){
+            result = a*b ;
+        }else if (operators == "/"){
+            result = a/b ;
+        }
+        window.alert(result);
+        document.write(result);
+        
+        
+    </script>
+    
+   
+</body>
+</html>

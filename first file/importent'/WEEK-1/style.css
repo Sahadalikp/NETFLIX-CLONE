@@ -1,0 +1,19 @@
+#mydiv{
+    margin-left:20px;
+    width: 500px;px;height: 300px;px;
+    background-color: rgb(147, 146, 146,0.8);
+    margin-top: 200px;
+}
+body{
+    background-color: rgb(76,658);
+    display: flex;
+    justify-content: center;
+}
+#submit{
+    background-color: brown;
+}
+#ntsubmit{
+    background-color: brown;
+}
+
+

@@ -1,0 +1,19 @@
+:root {
+    --clr-dark: rgb(245, 209, 138);
+    --clr-light:
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+
+}
+.grid-item{
+   background-color:var(--clr-dark);
+    border: 5px solid rgb(204, 201, 201);
+
+}
+.body{
+    color: ;
+}
+ 

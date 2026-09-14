@@ -1,0 +1,127 @@
+*{
+    border: 0cap;
+}
+.header1{
+    margin: 0%;
+    padding: 0%; 
+    background-color: #0a0b27;
+    width: 100vw;
+    position: sticky;
+    top:0;
+}
+.navbar{
+    height: 70px;
+}
+.image{
+    position: fixed;
+}
+.logoimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    
+}
+#fizzlogo{ 
+    margin-left: 10px;
+    
+    
+}
+.firstdiv{
+    height: 40px;
+}
+      
+.navbar{
+   width: 100%;
+    display:flex;
+    justify-content: space-between;
+   
+}
+body{
+    
+    margin: 0%;
+    margin: 0%;
+   
+}
+#firstimag{
+    margin: 0px;
+    height: 100%;
+    width: 100vw;
+    margin-top: 0px;
+    top:0;
+}
+
+.homenav{
+    display:flex;
+    align-items: center;
+    height: 70px; 
+    width:100%;
+}
+#homeli{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-left: 350px;
+}
+ul{ 
+   
+    list-style-type: none;
+    overflow: hidden;
+    align-content: center;
+    
+}
+li a{
+    font-size: 16px;
+    float: left;
+    text-decoration:solid;
+    color: rgb(9, 244, 244);
+}
+#maindiv{
+    display: flex;
+    height: 1300px;
+    background-color: blue;
+}
+#right{
+    height: 1300px;
+    width: 50%;
+    background-color: aqua;
+}
+#left{
+    height: 1300px;
+    width: 50%;
+    background-color: black;
+}
+#secondimag{
+    margin: 0px;
+    height: 100%;
+    width: 100vw;
+    margin-top: 0px;
+    top:0;
+}
+#lastdiv{
+    display: flex;
+    height: 500px;
+    background-color: beige
+}
+#lastdiv3{
+    width: 33.33%;
+    height: 500px;
+    background-color: rgb(52, 52, 7)
+}#lastdiv4{
+    width: 33.33%;
+    height: 500px;
+    background-color: rgb(93, 93, 88)
+}
+#lastdiv5{
+    width: 33.33%;
+    height: 500px;
+    background-color: rgb(228, 228, 15)
+}
+#p1{
+    padding: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 75px;
+    line-height: 1.2;
+}

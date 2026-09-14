@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x:hidden ;
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    /* overflow: hidden; */
+    background:linear-gradient(to right,rgb(255,255,255),rgb(254,215,173));
+
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    position: sticky;
+}
+.nave-condainer  {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    color: black;
+    font-size: 2rem;
+    font-weight: bolder;
+
+}
+.logo span{
+    color: rgb(109,67,0);
+    text-shadow: 0 0 10px rgb(109,67,0);
+
+ } 
+
+#humburg {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: black;
+    font-size: 2rem;
+    display: none;
+     
+}
+#cancel{
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: black;
+    font-size: 2rem;
+    display: none;
+}
+.nave-condainer .links{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+
+}
+.nave-condainer .links a{
+    position: relative;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    transform: o.3s linear;
+}
+.nave-condainer .links a::before{
+    position: absolute;
+    content: "";
+    bottom: -3px;
+    left: 0;
+    width:  0%;
+    height: 3px;
+    background-color: rgb(109,67,0);
+    transition:0.2s linear ;
+}
+.nave-condainer .links a:hover::before{
+    width: 100%;
+
+}
+.nave-condainer .contact-btn{
+    background-color:rgb(109,67,0);
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(109,67,0);
+    transition: 0.2s linear;
+
+}
+ .nav-contact-btn a{
+       color: white;
+       transition: 0.3s linear;
+}
+.nave-condainer .contact-btn:hover .nave-condainer .contact-btn:hover a{
+    background-color: rgb(109,67,0);
+
+}
+.nave-condainer .links a:hover{
+    color: rgb(238, 199, 43);
+}
+
+.dropdown{
+    z-index: 100;
+    position:absolute;
+    top: 0;
+    transform: translateY(-500px);
+    width: 100%;
+    height: auto;
+    backdrop-filter:brightness(40%)blur(3px);
+    box-shadow: 0 0 20px black;
+    transition: 0.2s linear;
+
+  
+}
+.dropdown .links a {
+    color: rgb(203, 6, 6);
+    display:flex; 
+    text-decoration: none;
+    justify-content: center;
+    padding: 15px 0;
+    align-items: center;
+    transition: 0.2s linear;
+
+}
+.dropdown .links a:hover{
+    background-color: rgb(109,67,0);
+
+}
+section{
+    width: 100%;
+    height: 90vh;
+}
+.main-condainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-condainer .image{
+    z-index: -1;
+    width: 50%;
+
+}
+.main-condainer .image img{
+    width: 100% ;
+}
+.main-condainer .contant{
+    color: black;
+    width: 40%;
+    min-height: 100px;
+
+}
+.contant h1{
+    font-size: clamp(1rem, 2rem + 5vw,3rem);
+  
+}
+.contant h1 span{
+    color: rgb(109,67,0);
+    text-shadow: 0 0 10px;
+
+}
+.contant .typewriter{
+    font-weight: 600;
+    font-size: clamp(1rem, 1rem + 5vw,3rem);
+}
+.contant .typewriter span{
+    color: rgb(109,67,0);
+    font-size: 2.5rem;
+    text-shadow: 0 0 5px rgb(109,67,0);
+    position: relative;
+    transition: 0.3s linear;
+
+}
+.typewriter span::before{
+    content: "Developer";
+    animation:words 15s infinite;
+
+
+}
+#psection{
+    font-size:small;
+}
+.typewriter span::after{
+    content: "";
+    position: absolute;
+    width: calc(100%+ 8px);
+    height: 100%;
+    border-left:3px solid black ;
+    animation: cursor 0.6s linear infinite;
+
+}
+@keyframes cursor{
+    to{
+        border-left:3px solid #b74bb7;
+    }
+}
+@keyframes words{
+    0%,33%{
+        content:"Developer";
+    }
+     /* 40%,66%{
+        content:"Designer";
+    }
+     67%, 100%{
+        content:"Youtuber";
+    } */
+    
+}
+.contant p{
+    font-family: clamp(0.4rem, 0.2rem + 9vw, 1rem);
+    margin: 10px 0;
+}
+.social-link i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: solid  rgb(109,67,0);
+    border-radius: 50%;
+    margin: 5px 10px;
+    font-size: 1.5rem;
+    transition: 0.2s linear;
+
+}
+.social-link i:hover{
+    scale: 1.3;
+    color: white;
+    background-color: rgb(109,67,0);
+    filter: drop-shadow(0 0 10px rgb(109,67,0));
+}
+.contant button{
+    width: 40%;
+    height: 6vh;
+    margin: 30px;
+    background-color: rgb(109,67,0);
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 100%;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: 0.2s linear;
+}
+.contant button:hover{
+    scale: 1.1;
+    color: rgb(109,67,0);
+    border: 2px solid rgb(109,67,0);
+    background-color: transparent;
+    font-weight: 700;
+    box-shadow: 0 0 40PX rgb(109,67,0);
+
+}
+@media(max-width:884px){
+    body{
+        overflow-y: visible;
+    }
+    nav.logo{
+        position: absolute;
+        top: 16px;
+        left: 15px;
+        font-size: 1.5rem;
+    }
+    .main-condainer{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .nave-condainer .links{
+        display: none;
+
+    }
+    #humburg{
+        display: block;
+    }
+    #cancel{
+        display: block;
+    }
+    .main-condainer .contant{
+       width: 80%;
+
+    }
+    .social-link i{
+         width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.5rem;
+
+    }
+    .main-condainer .image{
+        width: 80%;
+        margin-bottom: 0px;
+
+    }
+}
+section{
+    padding:80px 10%;
+}
+.about{
+    /* color:rgb(109,67,0); */
+    font-size:small;
+    margin: 10%;
+    margin-top:5%;
+}
+.abouh2{
+      text-align:center;
+    font-size:2.5rem;
+    color:rgb(109,67,0);
+    margin-bottom:30px;
+}
+
+
+section h2{
+    text-align:center;
+    font-size:2.5rem;
+    color:rgb(109,67,0);
+    margin-bottom:30px;
+}
+
+.skills,
+.project-box{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.skills div,
+.card{
+    padding:20px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+    min-width:180px;
+    text-align:center;
+}
+
+form{
+    max-width:600px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+form input,
+form textarea{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+form button{
+    background:rgb(109,67,0);
+    color:white;
+    padding:12px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}

@@ -1,0 +1,109 @@
+
+
+*{
+    padding: 0;
+    /* margin: 0%; */
+}
+.h3{
+
+    background-color: rgba(49, 199, 241, 0.8);
+    border-radius:13px;
+    padding: 2px;
+}
+body{
+    background-color: rgb(180, 219, 247);
+    
+}
+#left{
+    width: 60%;
+    background-color:  rgb(180, 219, 247);
+}
+#right{
+    margin-bottom: 600px;
+    width: 400px;
+    background-color: rgb(41, 136, 246);
+    border-radius: 10%;
+    padding: 10px;
+    margin-left: 120px;
+    height: 290px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position:sticky;
+}
+
+.Asell{
+  
+}
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: px;
+    
+   
+}
+.box{
+   
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(175, 203, 244);
+    font-size: large;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(226, 234, 247);
+    justify-content:space-between;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+.secondrow{
+    display: flex;
+    justify-content: space-evenly;
+}
+.thirdrow{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fourthrow{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fifthrow{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sixteen{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#first1{
+    border-radius:10px;
+    justify-content:center;
+    
+}
+
+nav{
+    position: sticky;
+    top: 0;
+}
+.box1:hover{
+    transition: 1s ease;
+    transform:scale(1.1) ;
+}

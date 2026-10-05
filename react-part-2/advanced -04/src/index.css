@@ -1,0 +1,26 @@
+.App{
+    text-align: center;
+}
+.search-input{
+    width: 500px;
+    padding: 5px;
+    border-radius: 12px;
+}
+.search-out{
+    width: 500px;
+    margin: auto;
+    border:1px solid black ;
+    padding: 5px;
+    text-align: left;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.out-search{
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.out-search:hover{
+    background-color: rgb(225, 136, 19); 
+}

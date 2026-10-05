@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "title": "My First Blog",
+      "content": "Hello, this is my hfirst blog.",
+      "id": "1"
+    },
+    {
+      "title": "Learning React",
+      "content": "I am learning React.......",
+      "id": "2"
+    },
+    {
+      "title": "hello",
+      "content": "hello",
+      "id": "3"
+    },
+    {
+      "title": "rinhad",
+      "content": "hello world and ",
+      "id": "4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

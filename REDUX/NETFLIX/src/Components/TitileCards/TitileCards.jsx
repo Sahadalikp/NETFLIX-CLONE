@@ -35,7 +35,6 @@ useEffect(()=>{
     cardsRef.current.addEventListener('wheel', handleWheel);
 },[])
 
-console.log(apiData)
   return (
     <div className='TitileCards'>
       <h2>{titile?titile:"Populer on Netflix"}</h2>

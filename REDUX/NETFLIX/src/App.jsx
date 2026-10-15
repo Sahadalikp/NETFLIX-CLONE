@@ -24,7 +24,7 @@ function App() {
     },[]);
 
     return () => unsubscribe();
-  }, [navigate]);
+  }, []);
 
   return (
     <div>
